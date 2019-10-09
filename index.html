@@ -1,21 +1,22 @@
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
-<link rel="stylesheet" href="/styles.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+  integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg="
+  crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="/styles.css" />
 
 <div class="title">
   cautious octo system
 </div>
 
 <div class="create-container">
-  <input />
-  <button onclick="createButton('chat says hi')">
+  <input id="new-input" />
+  <button onclick="createButton()">
     create
   </button>
 </div>
 
-<script>
-  function createButton(str){
-    alert(str)
-  }
-</script>
+<div id="button-container"></div>
 
+<script src="./scripts.js"></script>
